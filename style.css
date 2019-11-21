@@ -6,7 +6,7 @@ body {
 
 .header {
     text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:'Cairo', sans-serif;
     padding: 10px 16px;
     background: #555;
     color: #f1f1f1;
@@ -20,12 +20,14 @@ body {
 }
 
 .generatePassword {
+    font-family: 'Cairo', sans-serif;
     background: grey;
     color: white;
     border: 3px; 
 }
 
 .copyPassword {
+    font-family: 'Cairo', sans-serif;
     background: grey;
     color: white;
     border: 3px; 

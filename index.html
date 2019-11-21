@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Awesome Password Generator</title>
+    <link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
@@ -14,6 +15,9 @@
 </head>
 
 <body>
+    <script>
+        var userInput = prompt("Choose a password length between 8 and 20.");
+    </script>
     <div class="container">
         <div class="header" id="myHeader">
             <h2>Password Generator</h2>
@@ -33,7 +37,8 @@
                 <script type="text/javascript">
                     function generatePassword() {
                         for (var i = 0; n = charArray.length; i <= (userInput); i++; {
-                            retVal += charArray.charAt(Math.random() * n);;
+                            retVal += charArray.charAt(Math.random() * n);
+                            document.inputPassword5()
                 </script>
             </div>
             <div class="col-md-5 col-sm-7">
