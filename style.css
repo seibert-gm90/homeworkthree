@@ -1,0 +1,20 @@
+.container {
+    border-color: goldenrod;
+    border: 10px;
+    background-color: grey;
+    width: 950px;
+
+}
+
+.generatePassword {
+    background: goldenrod;
+    color: whitesmoke;
+    border: 3px; 
+}
+
+.copyPassword {
+    background: goldenrod;
+    color: whitesmoke;
+    border: 3px; 
+}
+
