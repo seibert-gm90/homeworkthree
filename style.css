@@ -1,20 +1,26 @@
+.header {
+    padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
+}
 .container {
     border-color: goldenrod;
     border: 10px;
-    background-color: grey;
+    background-color: lightsalmon;
     width: 950px;
+    height: 500px;
 
 }
 
 .generatePassword {
-    background: goldenrod;
-    color: whitesmoke;
+    background: grey;
+    color: white;
     border: 3px; 
 }
 
 .copyPassword {
-    background: goldenrod;
-    color: whitesmoke;
+    background: grey;
+    color: white;
     border: 3px; 
 }
 
