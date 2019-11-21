@@ -15,9 +15,9 @@
 
 <body>
     <div class="container">
-            <div class="header" id="myHeader">
-                    <h2>Password Generator</h2>
-                  </div>
+        <div class="header" id="myHeader">
+            <h2>Password Generator</h2>
+        </div>
         <div class="row">
             <div class="col-lg-10 col-sm-12">
                 <label for="inputPassword5">Password</label>
@@ -28,7 +28,13 @@
 
         <div class="row">
             <div class="col-md-5 col-sm-7">
-                <button type="button" class="generatePassword btn btn-primary btn-lg">Generate Password</button>
+                <button type="button" class="generatePassword btn btn-primary btn-lg"
+                    onclick=generatePassword()>Generate Password</button>
+                <script type="text/javascript">
+                    function generatePassword() {
+                        for (var i = 0; n = charArray.length; i <= (userInput); i++; {
+                            retVal += charArray.charAt(Math.random() * n);;
+                </script>
             </div>
             <div class="col-md-5 col-sm-7">
                 <button type="button" class="copyPassword btn btn-primary btn-lg">Copy to Clipboard</button>
