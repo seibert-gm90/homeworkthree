@@ -15,9 +15,9 @@
 </head>
 
 <body>
-    <script>
+    <!-- <script>
         var userInput = prompt("Choose a password length between 8 and 20.");
-    </script>
+    </script> -->
     <div class="container">
         <div class="header" id="myHeader">
             <h2>Password Generator</h2>
@@ -25,27 +25,21 @@
         <div class="row">
             <div class="col-lg-10 col-sm-12">
                 <label for="inputPassword5">Password</label>
-                <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+                <input type="text" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
                 <small id="passwordHelpBlock" class="form-text text-muted"></small>
             </div>
         </div>
 
         <div class="row">
             <div class="col-md-5 col-sm-7">
-                <button type="button" class="generatePassword btn btn-primary btn-lg"
-                    onclick=generatePassword()>Generate Password</button>
-                <script type="text/javascript">
-                    function generatePassword() {
-                        for (var i = 0; n = charArray.length; i <= (userInput); i++; {
-                            retVal += charArray.charAt(Math.random() * n);
-                            document.inputPassword5()
-                </script>
+                <button onclick="generatePassword ()" type="button" class="generatePassword btn btn-primary btn-lg")>Generate Password</button>
             </div>
             <div class="col-md-5 col-sm-7">
                 <button type="button" class="copyPassword btn btn-primary btn-lg">Copy to Clipboard</button>
             </div>
         </div>
     </div>
+    <script src="./javascript.js"></script>
 </body>
 
 </html>

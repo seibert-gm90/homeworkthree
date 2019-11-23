@@ -1,13 +1,22 @@
-var charArray=["ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()"];
+var randomCharacters="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()";
+var charArray = randomCharacters.split('')
+var n = charArray.length
+var passwordLength= prompt("Choose a password length between 8 and 20.");
 
-var userInput= prompt("Choose a password length between 8 and 20.");
-
-var password= 
 function generatePassword(){
-for (var i = 0; n = charArray.length;  i <= (userInput); i++; {
-    retVal += charArray.charAt(Math.random() * n);
+    var passwordInput = document.querySelector("#inputPassword5")
+    var generatedPassword = ""
+
+    for (var i = 0; i < (passwordLength); i++) {
+        var char = charArray[Math.floor(Math.random() * n)];
+        generatedPassword = generatedPassword + char
+    }
+
+    passwordInput.value = generatedPassword
+
 }
-}
+
+
 
 function copyStringToClipboard(str) {
 
