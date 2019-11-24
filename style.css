@@ -35,4 +35,12 @@ body {
     border: 3px; 
 }
 
+.checkbox-text {
+    color: white;
+    font-family: 'Cairo', sans-serif;
+}
 
+#userPwInput {
+    border-radius: 10px;
+    width: 100%; 
+}
